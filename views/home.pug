@@ -1,0 +1,432 @@
+extends layout
+
+block main
+  // start-sa-banner-carousel
+  .sa-banner-carousel
+    .container
+      .row.justify-content-center
+        .col-lg-7.col-12
+          .sa-banner-slider.owl-carousel
+            .item
+              .banner-details
+                h2 We Believe In God
+                p There are many variations of passages of Lorem Ipsum available, but the 
+                  br 
+                  | majority have suffered alteration in some
+                a.sa-btn-transparent(href='#')
+                  | Learn More About Us
+                  img(src='sacredia/assets/images/icon/arrow-right.png', alt='img')
+            .item
+              .banner-details
+                h2 We Believe In God
+                p There are many variations of passages of Lorem Ipsum available, but the
+                  br 
+                  | majority have suffered alteration in some
+                a.sa-btn-transparent(href='#')
+                  | Learn More About Us
+                  img(src='sacredia/assets/images/icon/arrow-right.png', alt='img')
+            .item
+              .banner-details
+                h2 We Believe In God
+                p There are many variations of passages of Lorem Ipsum available, but the 
+                  br 
+                  | majority have suffered alteration in some
+                a.sa-btn-transparent(href='#')
+                  | Learn More About Us
+                  img(src='sacredia/assets/images/icon/arrow-right.png', alt='img')
+        .col-lg-5.col-md-10.col-12
+          .sa-banner-audio-area
+            h3 Living A Christian Life
+            p Many desktop publishing packages and website...
+            .audio-player
+              #play-btn.audio-button
+                i.fa.fa-play  
+                i.fa.fa-pause
+              a#player-container.audio-wrapper(href='javascript:;')
+                audio#player(ontimeupdate='initProgressBar()')
+                  source(src='http://www.lukeduncan.me/oslo.mp3', type='audio/mp3')
+              .player-controls.scrubber
+                small.end-time 5:44
+  // end-sa-banner-carousel
+  // start-coundown
+  section.latest_event_sermons.mg-top--50
+    .sa-coundown-section
+      .container
+        .sa-coundown
+          .row
+            .col-lg-7.col-12
+              .sa-coundown-content
+                h2 Upcoming Event
+                p You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+            .col-lg-5.col-12
+              .sa-time-count
+                h3 Happening in
+                .timer
+                  .countdown-intro
+    // end-coundown
+  //- // Next-Events-Sermons
+  //- section.latest_event_sermons.mg-top--50
+  //-   .container
+  //-     .row
+  //-       .col-md-6
+  //-         .box_wrap.next_event
+  //-           p.subtitle Next Event
+  //-           h4
+  //-             a(href='#') Which is the same as saying
+  //-           .event_info
+  //-             .event_date
+  //-               span 20
+  //-               | Aug'19
+  //-             ul
+  //-               li
+  //-                 i.fa.fa-clock-o
+  //-                 |  Sunday 8:00 - 9:00 am
+  //-               li
+  //-                 i.fa.fa-map-marker
+  //-                 |  56 Thatcher Avenue River Forest Chicago, IL United States
+  //-           a.btn.btn-primary(href='#')
+  //-             i.fa.fa-caret-right
+  //-             | Join Now
+  //-       .col-md-6
+  //-         .box_wrap.next_sermons
+  //-           p.subtitle Latest Sermons
+  //-           h4
+  //-             a(href='#') We denounce with righteous
+  //-           ul.sermons_meta
+  //-             li
+  //-               i.fa.fa-user
+  //-               | Message by 
+  //-               a(href='#') Frederick
+  //-             li
+  //-               i.fa.fa-calendar-check-o
+  //-               | Aug 12, 2019
+  //-           .sermons_inside
+  //-             ul
+  //-               li
+  //-                 a(href='#')
+  //-                   i.fa.fa-youtube-play
+  //-               li
+  //-                 a(href='#')
+  //-                   i.fa.fa-file-pdf-o
+  //-               li
+  //-                 a(href='#')
+  //-                   i.fa.fa-share-alt
+  //-           .audio-player
+  //-             #play-btn
+  //-               i.fa.fa-play  
+  //-               i.fa.fa-pause
+  //-             #player-container.audio-wrapper
+  //-               audio#player(ontimeupdate='initProgressBar()')
+  //-                 source(src='http://www.lukeduncan.me/oslo.mp3', type='audio/mp3')
+  //-             .player-controls.scrubber
+  //-               small.end-time 5:44
+  //-               span#seekObjContainer
+  //-                 progress#seekObj(value='0', max='1')
+  //-               i.fa.fa-volume-up
+  //-             .next_prev
+  //-               i.fa.fa-angle-left
+  //-               i.fa.fa-angle-right
+  //- // /Next-Events-Sermons
+  // About
+  section.section-padding.ss-about-us.style-1.weeding-bg.mt-5
+    .container
+      .row
+        .col-lg-7
+          .ss-multi-boxes
+            .ss-box-column
+              .ss-about-box.bg-white
+                span S
+                i.flaticon-architecture-and-city
+                p Sunday Services
+              .ss-about-box.bg-white
+                span D
+                i.flaticon-calendar
+                p Daily Events
+              .ss-about-box.bg-blue
+                span V
+                i.flaticon-charity
+                p Volunteers
+            .ss-box-column
+              .ss-about-box.bg-blue
+                span H
+                i.flaticon-high-five
+                p Helpful
+              .ss-about-box.bg-white
+                span W
+                i.flaticon-social-care
+                p Welcoming
+              .ss-about-box.bg-orange
+                span B
+                i.flaticon-catholic
+                p Biblical
+            .ss-box-column
+              .ss-about-box.bg-white
+                span p
+                i.flaticon-praying
+                p Prayers
+        .col-lg-5.ss-about-description
+          .about_us
+            h2 About Us.
+            p  Churchly ipsum dolor amet toby Mac volunteer slippery slope, dive in the message special music ambient good good Father spiritual formation. Saved love offering orthoparodoxical, fellowship lock in saved catalyst slippery slope echo echo echo. Worship leader praiseworthy ignite unpack that, lock in love offering secular atmosphere anthem. 
+            a.btn.btn-lg.dark-btn(href='#') Learn More
+  // /About
+  // start-ministries-section
+  section.latest_blog.section-padding.style-3.ministries
+    .container
+      .section-header.text-center
+        h2 Our Ministries
+        p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+      .blog
+        .row
+          article.col-md-4.col-12
+            .blog_wrap
+              .blog_img
+                a(href='#')
+                  img(src='sacredia/assets/images/post_2.jpg', alt='image')
+              .blog_info
+                h5
+                  a(href='#') Children&apos;s Ministry
+                p You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+          article.col-md-4.col-12
+            .blog_wrap
+              .blog_img
+                a(href='#')
+                  img(src='sacredia/assets/images/post_1.jpg', alt='image')
+              .blog_info
+                h5
+                  a(href='#') Adult Ministry
+                p You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+          article.col-md-4.col-12
+            .blog_wrap
+              .blog_img
+                a(href='#')
+                  img(src='sacredia/assets/images/post_3.jpg', alt='image')
+              .blog_info
+                h5
+                  a(href='#') Women&apos;s Ministry
+                p You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+  // end-ministries-section
+  //- // Latest-Events-Sermons
+  //- section.section-padding.latest_event_sermons.m-0
+  //-   .container
+  //-     .row
+  //-       .col-md-6.col-lg-5
+  //-         .heading
+  //-           h3 Latest Events
+  //-           a.btn.btn-secondary.btn-md.pull-right(href='#') See All
+  //-         .event_list
+  //-           ul
+  //-             li
+  //-               .event_info
+  //-                 .event_date
+  //-                   span 20 
+  //-                   | Aug'19
+  //-                 h6
+  //-                   a(href='#') Which is the same as saying
+  //-                 ul
+  //-                   li
+  //-                     i.fa.fa-clock-o
+  //-                     |  Sunday (8:00 am -9:00 am)
+  //-                   li
+  //-                     i.fa.fa-map-marker
+  //-                     |  56 Thatcher Avenue River Forest
+  //-             li
+  //-               .event_info
+  //-                 .event_date
+  //-                   span 20 
+  //-                   | Aug'19
+  //-                 h6
+  //-                   a(href='#') Which is the same as saying
+  //-                 ul
+  //-                   li
+  //-                     i.fa.fa-clock-o
+  //-                     |  Sunday (8:00 am -9:00 am)
+  //-                   li
+  //-                     i.fa.fa-map-marker
+  //-                     |  56 Thatcher Avenue River Forest
+              
+  //-       .col-md-6.col-lg-5.offset-lg-2
+  //-         .heading
+  //-           h3.text-capitalize Latest Sermons
+  //-           a.btn.btn-secondary.btn-md.pull-right(href='#') See All
+  //-         #accordion.panel-group(role='tablist', aria-multiselectable='true')
+  //-           .panel.panel-default
+  //-             #headingOne.panel-heading(role='tab')
+  //-               h6.panel-title
+  //-                 a(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseOne', aria-expanded='true', aria-controls='collapseOne') But I must explain to you how
+  //-             #collapseOne.panel-collapse.collapse.in(role='tabpanel', aria-labelledby='headingOne')
+  //-               .panel-body
+  //-                 ul.sermons_meta
+  //-                   li
+  //-                     i.fa.fa-user
+  //-                     | Message by 
+  //-                     a(href='#') Frederick
+  //-                   li
+  //-                     i.fa.fa-calendar-check-o
+  //-                     |  Aug 12, 2019
+  //-                 .sermons_inside
+  //-                   ul
+  //-                     li
+  //-                       a(href='#')
+  //-                         i.fa.fa-music
+  //-                     li
+  //-                       a(href='#')
+  //-                         i.fa.fa-youtube-play
+  //-                     li
+  //-                       a(href='#')
+  //-                         i.fa.fa-file-pdf-o
+  //-                     li
+  //-                       a(href='#')
+  //-                         i.fa.fa-share-alt
+  //-           .panel.panel-default
+  //-             #headingTwo.panel-heading(role='tab')
+  //-               h6.panel-title
+  //-                 a(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo') But I must explain to you how
+  //-             #collapseTwo.panel-collapse.collapse.in(role='tabpanel', aria-labelledby='headingTwo')
+  //-               .panel-body
+  //-                 ul.sermons_meta
+  //-                   li
+  //-                     i.fa.fa-user
+  //-                     | Message by 
+  //-                     a(href='#') Frederick
+  //-                   li
+  //-                     i.fa.fa-calendar-check-o
+  //-                     |  Aug 12, 2019
+  //-                 .sermons_inside
+  //-                   ul
+  //-                     li
+  //-                       a(href='#')
+  //-                         i.fa.fa-music
+  //-                     li
+  //-                       a(href='#')
+  //-                         i.fa.fa-youtube-play
+  //-                     li
+  //-                       a(href='#')
+  //-                         i.fa.fa-file-pdf-o
+  //-                     li
+  //-                       a(href='#')
+  //-                         i.fa.fa-share-alt
+            
+  //- // /Latest-Events-Sermons
+
+  // Style 1
+  section
+    .sa-cta-submit-listing
+      .container
+        .row
+          .col-12
+            .section-title
+              h2.title Our Sermons are available
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi unde sint voluptatibus alias aliquid...
+            a.btn.btn-lg.dark-btn(href='#') All Sermons
+
+  // Live Broadcast
+  section#live-video.sa-video-gallery-section
+    .container
+      .row.justify-content-center
+        .col-lg-7
+          .section-header.text-center
+            h2.text-capitalize Our Live Broadcast
+            p Watch our Event live directly from our website
+        .col-12
+          .sa-leading-video-gallery
+            .media
+              .media-left
+                .sa-video-blog-popup
+                  .thumb
+                    img(src='sacredia/assets/images/video-gallery/01.png', alt='img')
+                  .video_icon
+                    a.popup-youtube(href='http://www.youtube.com/watch?v=0O2aH4XLbto')
+                      i.fa.fa-play
+              .media-body
+                .sa-leading-video-details
+                  p.video-date Aug 12, 2018
+                  h3 When our power of choice
+                  p You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum there isn't anything embarrassing hidden in the generators on the Internet tend to repeat predefined
+                  a.btn.btn-primary(href='#') Watch Video
+        //- .col-lg-3
+        //-   .sa-single-video-gallery
+        //-     .sa-video-blog-popup
+        //-       .thumb
+        //-         img(src='sacredia/assets/images/video-gallery/1.png', alt='img')
+        //-       a.popup-youtube(href='http://www.youtube.com/watch?v=0O2aH4XLbto')
+        //-         i.fa.fa-play
+        //-     h3 Kenne G. Patten
+        //- .col-lg-3
+        //-   .sa-single-video-gallery
+        //-     .sa-video-blog-popup
+        //-       .thumb
+        //-         img(src='sacredia/assets/images/video-gallery/2.jpg', alt='img')
+        //-       a.popup-youtube(href='http://www.youtube.com/watch?v=0O2aH4XLbto')
+        //-         i.fa.fa-play
+        //-     h3 David M. Dahan
+        //- .col-lg-3
+        //-   .sa-single-video-gallery
+        //-     .sa-video-blog-popup
+        //-       .thumb
+        //-         img(src='sacredia/assets/images/video-gallery/3.jpg', alt='img')
+        //-       a.popup-youtube(href='http://www.youtube.com/watch?v=0O2aH4XLbto')
+        //-         i.fa.fa-play
+        //-     h3 D. Kathy Santos Kito
+        //- .col-lg-3
+        //-   .sa-single-video-gallery
+        //-     .sa-video-blog-popup
+        //-       .thumb
+        //-         img(src='sacredia/assets/images/video-gallery/4.jpg', alt='img')
+        //-       a.popup-youtube(href='http://www.youtube.com/watch?v=0O2aH4XLbto')
+        //-         i.fa.fa-play
+        //-     h3 Kim I. Bailey
+  // /Live Broadcast
+    
+  // Style 2
+  section.latest_blog.bg-gray.section-padding
+    .container
+      .section-header.text-center
+        h2 Latest Articles
+        p Follow our insightful blog articles and find the answers you are looking for
+      .blog
+        .row
+          article.col-md-4.col-12
+            .blog_wrap
+              .blog_img
+                a(href='#')
+                  img(src='sacredia/assets/images/post_1.jpg', alt='image')
+              .blog_info
+                .post_date
+                  a(href='#') Aug 12, 2018
+                h5
+                  a(href='#') On the other hand
+                p You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                a.btn.btn-primary(href='#') 
+                  | Details  
+                  i.fa.fa-caret-right
+          article.col-md-4.col-12
+            .blog_wrap
+              .blog_img
+                a(href='#')
+                  img(src='sacredia/assets/images/post_2.jpg', alt='image')
+              .blog_info
+                .post_date
+                  a(href='#') Aug 12, 2018
+                h5
+                  a(href='#') On the other hand
+                p You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                a.btn.btn-primary(href='#') 
+                  | Details  
+                  i.fa.fa-caret-right
+          article.col-md-4.col-12
+            .blog_wrap
+              .blog_img
+                a(href='#')
+                  img(src='sacredia/assets/images/post_3.jpg', alt='image')
+              .blog_info
+                .post_date
+                  a(href='#') Aug 12, 2018
+                h5
+                  a(href='#') On the other hand
+                p You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                a.btn.btn-primary(href='#') 
+                  | Details  
+                  i.fa.fa-caret-right
+
+  

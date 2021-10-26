@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel="stylesheet", href="Slick/slick/slick.css")
+    link(rel="stylesheet", href="Slick/slick/slick-theme.css")
+    link(rel="stylesheet", href="css/custom.css")
+    title Document
+  body
+    #root
+      h1.heading YOUTH CAMP 2019 REGISTRATION FORM
+      #gallery
+        div
+          img(src='img/zachary-nelson-192289.jpg')
+        div
+          img(src='img/_CSC0007.JPG')
+        div
+          img(src='img/_DSC0082.JPG')
+        div
+          img(src='img/_DSC0065.JPG')
+        div
+          img(src='img/_DSC0159.MOV')
+    script(src="js/jquery.min.js")
+    script(src="Slick/slick/slick.min.js")
+    script.
+      $(document).ready(function(){
+        $('#gallery').slick({
+          dots: true,
+          //- infinite: true,
+          autoplay:true,
+          autoplaySpeed: 2000,
+          fade: true,
+          cssEase: 'linear'
+        });
+      });
